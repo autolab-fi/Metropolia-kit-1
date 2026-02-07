@@ -8,7 +8,7 @@
           {
             "str_id": "sandbox",
             "name": "Sandbox",
-            "url": "hhttps://raw.githubusercontent.com/autolab-fi/Metropolia-kit-1/refs/heads/main/lessons/module-1/lesson_example.md",
+            "url": "https://raw.githubusercontent.com/autolab-fi/Metropolia-kit-1/refs/heads/main/lessons/module-1/lesson_example.md",
             "sn": 0,
             "description": "Sandbox",
             "template": "from lineRobot import Robot\n\n\nrobot = Robot()\nprint(\"Turning left\")\nrobot.turn_left_angle(45)\nprint(\"Moving forward\")\nrobot.move_forward_distance(20)\nprint(\"Turning right\")\nrobot.turn_right()\nprint(\"Moving forward\")\nrobot.move_forward_distance(20)\nprint(\"Turning right\")\nrobot.turn_right()\nprint(\"Moving forward\")\nrobot.move_forward_distance(20)\nprint(\"Turning right\")\nrobot.turn_right()\nprint(\"Moving forward\")\nrobot.move_forward_distance(20)"
