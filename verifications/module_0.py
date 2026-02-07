@@ -62,7 +62,7 @@ def sandbox(robot, image, td: dict, user_code=None):
     # init testData
     if not td:
         td = {
-            "end_time": time.time() + 60,
+            "end_time": time.time() + 30,
             'trajectory': []
         }
     image = robot.draw_info(image)
@@ -84,4 +84,5 @@ def sandbox(robot, image, td: dict, user_code=None):
         text = f"Message received: {msg}"
 
     return image, td, text, result
+
 
